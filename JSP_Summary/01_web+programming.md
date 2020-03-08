@@ -32,3 +32,17 @@ http://wwww.sba.seoul.kr:80/kr/index
           < response         < Logic 수행                     < 데이터
 ```
 <br>
+
+### 개발환경
+이클립스 + 아파치 톰캣
+
++ 서버환경설정
+
+![image](https://user-images.githubusercontent.com/59919620/76163205-83ec4480-6187-11ea-89be-118ce4df751d.png)
+
++ Server Location
+  + Use Tomcat installation
++ Server Option 
+  + Publish module contexts to separate XML files
++ Port
+  + HTTP/1.1 변경 : 오라클 서버 내부적 http 프로토콜을 8080 사용하여 충돌 방지를 위해서 변경해준다.
