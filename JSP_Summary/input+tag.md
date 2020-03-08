@@ -1,4 +1,4 @@
-html form태그
+# html form태그
 서버쪽으로 정보를 전달할 때 사용하는 태그
 
 input 태그
